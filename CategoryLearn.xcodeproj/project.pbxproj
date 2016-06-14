@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE3B2D311CC0B9C20073D9BF /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3B2D301CC0B9C20073D9BF /* NSObject+Runtime.m */; };
+		FE8E31891CC707D9007A7E81 /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8E31881CC707D8007A7E81 /* UILabel+StringFrame.m */; };
+		FE8E31981CC761BB007A7E81 /* UIButton+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8E31971CC761BB007A7E81 /* UIButton+Setup.m */; };
+		FEBE73EF1CC60320004C60BD /* NSObject+PropertyListing.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBE73EE1CC60320004C60BD /* NSObject+PropertyListing.m */; };
 		FECAD9AB1CA5A78A005B4493 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FECAD9AA1CA5A78A005B4493 /* main.m */; };
 		FECAD9AE1CA5A78A005B4493 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FECAD9AD1CA5A78A005B4493 /* AppDelegate.m */; };
 		FECAD9B11CA5A78A005B4493 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECAD9B01CA5A78A005B4493 /* ViewController.m */; };
 		FECAD9B41CA5A78A005B4493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECAD9B21CA5A78A005B4493 /* Main.storyboard */; };
 		FECAD9B61CA5A78A005B4493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECAD9B51CA5A78A005B4493 /* Assets.xcassets */; };
 		FECAD9B91CA5A78A005B4493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECAD9B71CA5A78A005B4493 /* LaunchScreen.storyboard */; };
+		FECAD9C31CA5A7ED005B4493 /* UIView+HYCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FECAD9C21CA5A7ED005B4493 /* UIView+HYCCategory.m */; };
+		FED4F3931CCB2ECD00686258 /* UIFont+HYCCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FED4F3921CCB2ECD00686258 /* UIFont+HYCCategory.m */; };
+		FED4F3971CCD04D100686258 /* UIButton+ActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FED4F3961CCD04D100686258 /* UIButton+ActionBlock.m */; };
+		FEEF48041CE47C2E0073117A /* NSDictionary+HYCLOG.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEF48031CE47C2E0073117A /* NSDictionary+HYCLOG.m */; };
+		FEEF48071CE47F1D0073117A /* NSArray+HYCLOG.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEF48061CE47F1D0073117A /* NSArray+HYCLOG.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE3B2D2F1CC0B9C20073D9BF /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		FE3B2D301CC0B9C20073D9BF /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		FE8E31871CC707D8007A7E81 /* UILabel+StringFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StringFrame.h"; sourceTree = "<group>"; };
+		FE8E31881CC707D8007A7E81 /* UILabel+StringFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+StringFrame.m"; sourceTree = "<group>"; };
+		FE8E31961CC761BB007A7E81 /* UIButton+Setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Setup.h"; sourceTree = "<group>"; };
+		FE8E31971CC761BB007A7E81 /* UIButton+Setup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Setup.m"; sourceTree = "<group>"; };
+		FEBE73ED1CC60320004C60BD /* NSObject+PropertyListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertyListing.h"; sourceTree = "<group>"; };
+		FEBE73EE1CC60320004C60BD /* NSObject+PropertyListing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertyListing.m"; sourceTree = "<group>"; };
 		FECAD9A61CA5A78A005B4493 /* CategoryLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECAD9AA1CA5A78A005B4493 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FECAD9AC1CA5A78A005B4493 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +43,17 @@
 		FECAD9B51CA5A78A005B4493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FECAD9B81CA5A78A005B4493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FECAD9BA1CA5A78A005B4493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECAD9C11CA5A7ED005B4493 /* UIView+HYCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HYCCategory.h"; sourceTree = "<group>"; };
+		FECAD9C21CA5A7ED005B4493 /* UIView+HYCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HYCCategory.m"; sourceTree = "<group>"; };
+		FED4F3911CCB2ECD00686258 /* UIFont+HYCCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HYCCategory.h"; sourceTree = "<group>"; };
+		FED4F3921CCB2ECD00686258 /* UIFont+HYCCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HYCCategory.m"; sourceTree = "<group>"; };
+		FED4F3941CCB309C00686258 /* HYCCategoryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCCategoryKit.h; sourceTree = "<group>"; };
+		FED4F3951CCD04D100686258 /* UIButton+ActionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ActionBlock.h"; sourceTree = "<group>"; };
+		FED4F3961CCD04D100686258 /* UIButton+ActionBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ActionBlock.m"; sourceTree = "<group>"; };
+		FEEF48021CE47C2E0073117A /* NSDictionary+HYCLOG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYCLOG.h"; sourceTree = "<group>"; };
+		FEEF48031CE47C2E0073117A /* NSDictionary+HYCLOG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYCLOG.m"; sourceTree = "<group>"; };
+		FEEF48051CE47F1D0073117A /* NSArray+HYCLOG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYCLOG.h"; sourceTree = "<group>"; };
+		FEEF48061CE47F1D0073117A /* NSArray+HYCLOG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYCLOG.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 		FECAD9A81CA5A78A005B4493 /* CategoryLearn */ = {
 			isa = PBXGroup;
 			children = (
+				FECAD9C01CA5A7BB005B4493 /* Category */,
 				FECAD9AC1CA5A78A005B4493 /* AppDelegate.h */,
 				FECAD9AD1CA5A78A005B4493 /* AppDelegate.m */,
 				FECAD9AF1CA5A78A005B4493 /* ViewController.h */,
@@ -77,6 +106,32 @@
 				FECAD9AA1CA5A78A005B4493 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FECAD9C01CA5A7BB005B4493 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FED4F3941CCB309C00686258 /* HYCCategoryKit.h */,
+				FECAD9C11CA5A7ED005B4493 /* UIView+HYCCategory.h */,
+				FECAD9C21CA5A7ED005B4493 /* UIView+HYCCategory.m */,
+				FE8E31871CC707D8007A7E81 /* UILabel+StringFrame.h */,
+				FE8E31881CC707D8007A7E81 /* UILabel+StringFrame.m */,
+				FE8E31961CC761BB007A7E81 /* UIButton+Setup.h */,
+				FE8E31971CC761BB007A7E81 /* UIButton+Setup.m */,
+				FED4F3951CCD04D100686258 /* UIButton+ActionBlock.h */,
+				FED4F3961CCD04D100686258 /* UIButton+ActionBlock.m */,
+				FE3B2D2F1CC0B9C20073D9BF /* NSObject+Runtime.h */,
+				FE3B2D301CC0B9C20073D9BF /* NSObject+Runtime.m */,
+				FEBE73ED1CC60320004C60BD /* NSObject+PropertyListing.h */,
+				FEBE73EE1CC60320004C60BD /* NSObject+PropertyListing.m */,
+				FED4F3911CCB2ECD00686258 /* UIFont+HYCCategory.h */,
+				FED4F3921CCB2ECD00686258 /* UIFont+HYCCategory.m */,
+				FEEF48021CE47C2E0073117A /* NSDictionary+HYCLOG.h */,
+				FEEF48031CE47C2E0073117A /* NSDictionary+HYCLOG.m */,
+				FEEF48051CE47F1D0073117A /* NSArray+HYCLOG.h */,
+				FEEF48061CE47F1D0073117A /* NSArray+HYCLOG.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +205,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FECAD9B11CA5A78A005B4493 /* ViewController.m in Sources */,
+				FEEF48041CE47C2E0073117A /* NSDictionary+HYCLOG.m in Sources */,
+				FED4F3971CCD04D100686258 /* UIButton+ActionBlock.m in Sources */,
+				FE8E31981CC761BB007A7E81 /* UIButton+Setup.m in Sources */,
+				FE3B2D311CC0B9C20073D9BF /* NSObject+Runtime.m in Sources */,
+				FED4F3931CCB2ECD00686258 /* UIFont+HYCCategory.m in Sources */,
 				FECAD9AE1CA5A78A005B4493 /* AppDelegate.m in Sources */,
+				FEBE73EF1CC60320004C60BD /* NSObject+PropertyListing.m in Sources */,
+				FEEF48071CE47F1D0073117A /* NSArray+HYCLOG.m in Sources */,
+				FE8E31891CC707D9007A7E81 /* UILabel+StringFrame.m in Sources */,
+				FECAD9C31CA5A7ED005B4493 /* UIView+HYCCategory.m in Sources */,
 				FECAD9AB1CA5A78A005B4493 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +362,7 @@
 				FECAD9BF1CA5A78A005B4493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
